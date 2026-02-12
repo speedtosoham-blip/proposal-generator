@@ -1,0 +1,184 @@
+{
+  "template_id": "conn_arch_proposal",
+  "document_meta": {
+    "date": "2026-02-12",
+    "project_number": "CA-100",
+    "proposal_id": "NEW-200"
+  },
+  "parties": {
+    "from_firm": {
+      "name": "Conn + Architects",
+      "address": "123 Main St",
+      "phone": "850-555-0100",
+      "email": "info@connarchitects.com",
+      "license": "AA26000000"
+    },
+    "to_client": {
+      "contact_name": "Alex Smith",
+      "title": "Facilities Director",
+      "company": "Southside Church",
+      "address": "11 Oak Rd"
+    }
+  },
+  "project": {
+    "project_name": "Campus Student Center",
+    "location": "Tallahassee, FL",
+    "description_paragraphs": [
+      "Renovation of the existing church lobby and restroom core."
+    ],
+    "buildings": [
+      {
+        "name": "Academic Building A",
+        "stories": 3,
+        "area_sf": 45000,
+        "notes": "Core and shell"
+      },
+      {
+        "name": "Commons",
+        "stories": 2,
+        "area_sf": 18000,
+        "notes": "Dining and lounge"
+      }
+    ]
+  },
+  "scope": {
+    "sections": [
+      {
+        "heading": "Schematic Design",
+        "bullets": [
+          "Field verify existing conditions",
+          "Prepare schematic plans"
+        ]
+      },
+      {
+        "heading": "Design Development",
+        "bullets": [
+          "Client review set"
+        ]
+      },
+      {
+        "heading": "Construction Documents",
+        "bullets": [
+          "Permit drawing set"
+        ]
+      },
+      {
+        "heading": "Permitting",
+        "bullets": [
+          "Coordinate with AHJ"
+        ]
+      },
+      {
+        "heading": "Bidding or Negotiation",
+        "bullets": [
+          "Answer bidder RFIs"
+        ]
+      },
+      {
+        "heading": "Construction Administration",
+        "bullets": [
+          "Periodic observations"
+        ]
+      }
+    ]
+  },
+  "deliverables": [
+    "PDF set",
+    "Permit submittal package"
+  ],
+  "exclusions": [
+    "Civil engineering",
+    "Fire sprinkler design"
+  ],
+  "additional_services": [
+    "3D renderings"
+  ],
+  "timeline": [
+    {
+      "label": "Kickoff",
+      "date": "2026-03-01",
+      "duration_text": "1 week"
+    }
+  ],
+  "fees": {
+    "currency": "USD",
+    "fee_type": "lump_sum",
+    "total": 420000,
+    "phase_breakdown": [
+      {
+        "phase": "Schematic Design",
+        "percent": 20,
+        "amount": 84000
+      },
+      {
+        "phase": "Design Development",
+        "percent": 25,
+        "amount": 105000
+      },
+      {
+        "phase": "Construction Documents",
+        "percent": 35,
+        "amount": 147000
+      },
+      {
+        "phase": "Construction Administration",
+        "percent": 20,
+        "amount": 84000
+      }
+    ],
+    "milestones": [
+      {
+        "milestone": "Permit Set",
+        "amount": 19600
+      }
+    ],
+    "hourly_rates": [
+      {
+        "role": "Principal",
+        "rate": 225
+      }
+    ],
+    "invoicing_terms": {
+      "due_days": 30,
+      "interest_apr": 12,
+      "notes": "Monthly"
+    }
+  },
+  "reimbursables": [
+    {
+      "item": "Mileage",
+      "rate_text": "$0.67/mile"
+    },
+    {
+      "item": "Printing",
+      "rate_text": "At cost"
+    }
+  ],
+  "legal": {
+    "governing_law_state": "Florida",
+    "venue": "Leon County, Florida",
+    "include_558_0035_corporate_protection": true,
+    "liability_cap": {
+      "enabled": true,
+      "cap_amount": 28000,
+      "cap_basis": "cap_amount"
+    },
+    "termination": {
+      "enabled": true,
+      "notice_days": 15
+    },
+    "proposal_void_after_days": 60,
+    "aia_reference": {
+      "enabled": false,
+      "doc": "B103-2017"
+    }
+  },
+  "signature_blocks": [
+    {
+      "label": "Accepted By",
+      "name_line": true,
+      "date_line": true,
+      "title_line": true
+    }
+  ]
+}
